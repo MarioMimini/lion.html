@@ -1,0 +1,140 @@
+.conteiner{
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  height:600px;
+  padding-top: 100px;
+
+}
+body{ background-color:rgb(206, 249, 161);}
+.logo1{
+  height: 150px;
+}
+.logo{
+  height: 200px;
+}
+h1{
+  color:rgb(97, 158, 18);
+  font-family:"Sacramento", cursive;
+  font-size: 5rem;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+h2{
+  font-family: "Montserrat", sans-serif;
+  margin-top: 20px;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #d68641;
+}
+.pro{
+  text-decoration: underline;
+}
+.logo-profile{
+  height: 200px;
+  border-radius: 50%;
+}
+
+.p{
+  width: 30%;
+  margin: auto;
+}
+.div2{
+  height: 1600px;
+  background-color: white;
+  text-align: center;
+  
+}
+.profile{
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+hr{
+  border: dotted  6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto;
+}
+
+.skills1{
+  text-align:center;
+  padding: 10px;
+}
+h3{
+  color:rgb(97, 158, 18)
+ }
+ .all-skills{
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1,1fr);
+  width: 50%;
+  gap: 1rem;
+  row-gap: 2rem;
+  margin: 100px auto 0 auto;
+ }
+ .p1{
+  text-align: left;
+  font-size: 20px;
+  color: rgb(73, 70, 70);
+
+
+ }
+.touch p{
+   
+    width: 40%;
+    margin: 10px auto 40px;
+
+}
+.btn{
+  background-color:rgb(97, 158, 18);
+  color:white ;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 5px;
+  width: 150px;
+  border: none;
+  height: 50px;
+  font-size: medium;
+  text-decoration: none;
+}
+.contact-me{
+  padding: 50px;
+  height: 100px;
+  text-align: center;
+}
+a{
+  margin: 10px 20px;
+}
+.button{
+  color: #d68641;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+div{
+  display: block;
+}
+@media (max-width:1792px){
+  body{
+    background-color:rgb(206, 249, 161);
+    width: auto;
+  }
+  .all-skills{
+    display: inline-block;
+   text-align: center;
+  }
+  .div2{
+   height: auto;
+  }
+  .contact-me{
+    height: auto;
+  }
+  .skills{
+    height: auto;
+  }
+  .image{
+    height: 130px;
+  }
+  .p1{
+    font-size: 15px;
+    text-align: center;
+  }
+}
